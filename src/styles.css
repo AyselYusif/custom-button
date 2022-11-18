@@ -1,0 +1,47 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  button {
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: cornsilk;
+    border: 1px solid blue;
+  }
+  .text {
+    display: none;
+  }
+  
+  .red {
+    background: red;
+  }
+  
+  .btnDiv {
+    position: relative;
+    top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .hint {
+    position: absolute;
+    top: 2px;
+    padding: 5px;
+    right: 25%;
+    display: none;
+    border: 10px;
+    background: rgb(16, 122, 82);
+    color: white;
+  }
+  
+  .btnDiv:hover .hint {
+    display: block;
+  }
+  
